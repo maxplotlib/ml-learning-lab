@@ -1,0 +1,26 @@
+### Data manipulation & ML
+pandas==2.3.3
+scikit-learn==1.7.2
+xgboost
+
+### LLM
+openai==2.8.1
+transformers==4.57.1
+
+### Visualization
+matplotlib==3.10.7
+bertviz==1.4.1
+
+### Deep Learning
+#tensorflow-macos==2.16.2
+#tensorflow-metal==1.2.0
+
+### Web apps & API
+fastapi[standard]==0.121.2
+streamlit==1.51.0
+
+### Databases
+sqlalchemy==2.0.44
+
+### Notebooks
+jupyterlab==4.5.0
