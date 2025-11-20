@@ -1,0 +1,116 @@
+# ==========================================
+# 🐍 Python & ML Learning .gitignore
+# ==========================================
+
+#########################################
+# 🧠 Virtual environments
+#########################################
+.venv/
+venv/
+env/
+.env/
+
+#########################################
+# 🔐 Secrets and environment variables
+#########################################
+.env
+config.json
+secrets.json
+*.key
+*.pem
+*.env.*
+
+#########################################
+# ⚙️ Python internals and caches
+#########################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.tox/
+.nox/
+*.egg-info/
+pip-wheel-metadata/
+dist/
+build/
+
+#########################################
+# 🧰 ML model artifacts
+#########################################
+*.model
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.onnx
+runs/
+logs/
+checkpoints/
+
+#########################################
+# 🧹 Formatters / Linters / Coverage
+#########################################
+.cache/
+*.cover
+*.log
+.coverage
+coverage.xml
+
+#########################################
+# 📓 Jupyter Notebook checkpoints
+#########################################
+.ipynb_checkpoints/
+**/*.nbconvert.ipynb
+
+#########################################
+# 🧪 Testing snapshots
+#########################################
+__snapshots__/
+
+#########################################
+# 🛠️ IDE and editor settings
+#########################################
+.vscode/
+.idea/
+.atom/
+*.sublime-project
+*.sublime-workspace
+
+#########################################
+# 💻 Operating system files
+#########################################
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+Icon?
+
+#########################################
+# 📝 Backup and temp files
+#########################################
+*~
+*.swp
+*.swo
+*.swn
+
+#########################################
+# 📦 Misc project artifacts
+#########################################
+.python-version
+pyvenv.cfg
+bin/
+lib/
+share/
+
+#########################################
+# 🤖 Downloaded LLMs
+#########################################
+llm-fundamentals/downloaded_llms/
+
+#########################################
+# 🐳 Dev container folder (Streamlit Cloud)
+#########################################
+.devcontainer/
