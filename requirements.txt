@@ -12,6 +12,7 @@ llama-index==0.14.8
 llama-index-readers-web==0.5.6
 llama-index-readers-json==0.4.2
 llama-index-readers-database==0.5.1
+llama-index-embeddings-huggingface==0.6.1
 docx2txt==0.9
 
 ### Visualization
